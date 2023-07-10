@@ -16,7 +16,7 @@
 {{--NavBar--}}
 <nav class="navbar navbar-expand-lg" style="background-color: green">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('customer.index') }}" style="color: black">ĐứcAnh88.gay</a>
+        <a class="navbar-brand" href="{{ route('customer.index') }}" style="color: white">ĐứcAnh88.gay</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +45,7 @@
         </div>
     </div>
 </nav>
-<marquee class="marquee1">ĐứcAnh88.gay - Trang web cho thuê sân bóng đá số 1 tại Châu Đại Dương</marquee>
+<marquee class="marquee1" style="font-size: 30px; color: white; background-color: green">ĐứcAnh88.gay - Trang web cho thuê sân bóng đá số 1 tại Châu Á</marquee>
 
 {{--FieldCard--}}
 <div class="card" style="width: 18rem;">
