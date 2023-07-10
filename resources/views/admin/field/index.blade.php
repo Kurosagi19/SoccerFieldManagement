@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Field Management</title>
+    <title>Quản lý sân bóng</title>
 </head>
 <body>
-<h1 align="center" style="background-color: aqua">Field Manager</h1>
-<a href="{{ route('admin.index') }}" class="btn btn-info">Get the f out of here</a>
+<h1 align="center" style="background-color: aqua">Danh sách sân hiện có</h1>
+<a href="{{ route('admin.index') }}" class="btn btn-info">Cút khỏi nơi này</a>
 </body>
 </html>
