@@ -45,7 +45,7 @@
         </div>
     </div>
 </nav>
-<marquee class="marquee1" style="font-size: 30px; color: white; background-color: green">ĐứcAnh88.gay - Trang web cho thuê sân bóng đá số 1 tại Châu Á</marquee>
+<marquee class="marquee1" style="font-size: 30px; color: white; background-color: green">ĐứcAnh88.gay - Trang web cho thuê sân bóng đá số 1 tại Châu Phi</marquee>
 
 {{--FieldCard--}}
 <div class="card" style="width: 18rem;">

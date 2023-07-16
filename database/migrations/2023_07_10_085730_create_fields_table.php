@@ -15,7 +15,11 @@ return new class extends Migration
     {
         Schema::create('fields', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('field_name');
+            $table->foreignId('type_id')->constrained('field_type');
+            $table->foreignId('location_id')->constrained('field_locations');
+            $table->integer('field_type');
+            $table->string('field_desc');
         });
     }
 
