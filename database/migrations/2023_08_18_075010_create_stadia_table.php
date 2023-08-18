@@ -13,12 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('fields', function (Blueprint $table) {
+        Schema::create('stadia', function (Blueprint $table) {
             $table->id();
-            $table->string('field_name');
-            $table->foreignId('type_id')->constrained('field_types');
-            $table->foreignId('location_id')->constrained('field_locations');
-            $table->string('field_desc');
+            $table->timestamps();
         });
     }
 
@@ -29,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('fields');
+        Schema::dropIfExists('stadia');
     }
 };

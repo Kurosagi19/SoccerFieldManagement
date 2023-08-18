@@ -17,7 +17,7 @@ class FieldTypeFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'field_type' => $this->faker->text,
         ];
     }
 }

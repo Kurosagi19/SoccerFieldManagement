@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\FieldLocation>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Stadium>
  */
-class FieldLocationFactory extends Factory
+class StadiumFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,7 +17,7 @@ class FieldLocationFactory extends Factory
     public function definition()
     {
         return [
-            'field_location' => $this->faker->text,
+            //
         ];
     }
 }

@@ -17,7 +17,10 @@ class FieldFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'field_name' => $this->faker->name,
+            'type_id' => $this->faker->numberBetween('1', '2'),
+            'location_id' => $this->faker->numberBetween('1', '2'),
+            'field_desc' => $this->faker->text,
         ];
     }
 }
