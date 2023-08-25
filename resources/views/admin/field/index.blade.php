@@ -7,8 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quản lý sân bóng</title>
 </head>
-<body>
+<body style="background: whitesmoke">
 <h1 align="center" style="background-color: aqua">Danh sách sân hiện có</h1>
-<a href="{{ route('admin.index') }}" class="btn btn-info">Cút khỏi nơi này</a>
+<tr>
+    <th>ID Sân</th>
+    <th>Tên sân</th>
+    <th>?</th>
+</tr>
+<a href="{{ route('admin.index') }}" class="btn btn-info">Thoát ra trang chính</a>
 </body>
 </html>
